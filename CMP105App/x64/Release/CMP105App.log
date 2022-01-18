@@ -1,0 +1,29 @@
+﻿  Level.cpp
+D:\University Stuff\Assignment\cmp105-coursework-iRemixUK\Coursework\CMP105App\Level.cpp(111,64): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\University Stuff\Assignment\cmp105-coursework-iRemixUK\Coursework\CMP105App\Level.cpp(111,40): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\University Stuff\Assignment\cmp105-coursework-iRemixUK\Coursework\CMP105App\Level.cpp(113,39): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Main.cpp
+D:\University Stuff\Assignment\cmp105-coursework-iRemixUK\Coursework\CMP105App\Main.cpp(48,8): warning C4101: 'elapsedTime': unreferenced local variable
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::IpAddress::IpAddress(void)" (__imp_??0IpAddress@sf@@QEAA@XZ)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::IpAddress::IpAddress(char const *)" (__imp_??0IpAddress@sf@@QEAA@PEBD@Z)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Packet & __cdecl sf::Packet::operator<<(unsigned short)" (__imp_??6Packet@sf@@QEAAAEAV01@G@Z)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Packet::~Packet(void)" (__imp_??1Packet@sf@@UEAA@XZ)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Packet::Packet(void)" (__imp_??0Packet@sf@@QEAA@XZ)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::UdpSocket::send(class sf::Packet &,class sf::IpAddress const &,unsigned short)" (__imp_?send@UdpSocket@sf@@QEAA?AW4Status@Socket@2@AEAVPacket@2@AEBVIpAddress@2@G@Z)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum sf::Socket::Status __cdecl sf::UdpSocket::bind(unsigned short,class sf::IpAddress const &)" (__imp_?bind@UdpSocket@sf@@QEAA?AW4Status@Socket@2@GAEBVIpAddress@2@@Z)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::UdpSocket::UdpSocket(void)" (__imp_??0UdpSocket@sf@@QEAA@XZ)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::IpAddress const sf::IpAddress::Any" (__imp_?Any@IpAddress@sf@@2V12@B)
+Level.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::UdpSocket::~UdpSocket(void)" (__imp_??1UdpSocket@sf@@UEAA@XZ)
+D:\University Stuff\Assignment\cmp105-coursework-iRemixUK\Coursework\x64\Release\CMP105App.exe : fatal error LNK1120: 10 unresolved externals
